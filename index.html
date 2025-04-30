@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Model</title>
+    <style>
+        .box {
+            width: 810px;
+			height:400px;
+            background-color:aqua;
+            
+           
+            padding: 60px;   
+            border: 5px black;
+            margin: 10px;   
+            text-align: center;
+        }
+		.sana{
+		        background-color:#73c2fb;
+            color: solid blue;
+			width:600px;
+			height:200px;
+            padding-top:20px;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+		         
+
+        button {
+            background-color: blue;
+            color: black;
+            padding: 15px 10px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+            border-radius: 7px;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+    </style>
+</head>
+<body>
+
+
+    <div class="box">
+       <div class="sana">
+	    <form>
+		<label for="fname">First name:</label>
+		<input type="text" id="fname" name="fname">
+		
+		
+		<br><br>
+		<label for="lname">last name:</label>
+	
+		<input type="text" id="lname">
+		
+		<P>choose your favourite subject</p>
+		<input type="radio"id="DSA" name="favsubject"value="DSA">
+		<label for="DSA">DSA</label><br>
+		<input type="radio"id="Python" name="favsubject"value="python">
+		<label for="Python">Python</label><br>
+		<input type="radio"id="OOPS" name="favsubject"value="OOPS">
+		<label for="OOPS">OOPS</label><br>
+		<input type="radio"id="C++" name="favsubject"value="c++">
+		<label for="c++">c++</label>
+		</form>
+		
+        <button>Click Me</button>
+		</div>
+    </div>
+
+</body>
+</html>
